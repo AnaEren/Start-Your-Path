@@ -15,47 +15,87 @@ A aplicação oferece um banco de dados constantemente atualizado que integra of
 
 ### 1.2. JSON FINAL
 Da collection Jobs:
+
     {
+    
         "Job Title": "Chemical Engineer",
-        "Job Description": "Monitor and maintain product quality standards, perform inspections, and implement quality control procedures.",
-        "Role": "Quality Control Engineer",
-        "Company": "COM100053",
-        "Contact": "886.347.2730x938",
-        "Contact Person": "Jessica Fox",
-        "Work Type": "Intern",
-        "Job Portal": "Idealist",
-        "Qualifications": "BCA",
-        "Location": [
-            48.669,
-            19.699
-        ],
-        "Country": "Slovak Republic",
-        "Job Posting Date": "2021-10-12",
-        "Salary": {
-            "min": 64000,
-            "max": 104000
-        },
-        "Experience": {
-            "min": 3,
-            "max": 8
-        }
+	
+        
+	"Job Description": "Monitor and maintain product quality standards, perform inspections, and implement quality control procedures.",
+        
+	"Role": "Quality Control Engineer",
+        
+	"Company": "COM100053",
+        
+	"Contact": "886.347.2730x938",
+        
+	"Contact Person": "Jessica Fox",
+        
+	"Work Type": "Intern",
+        
+	"Job Portal": "Idealist",
+        
+	"Qualifications": "BCA",
+        
+	"Location": [
+        
+	    48.669,
+            
+	    19.699
+        
+	],
+        
+	"Country": "Slovak Republic",
+        
+	"Job Posting Date": "2021-10-12",
+        
+	"Salary": {
+        
+	    "min": 64000,
+            
+	    "max": 104000
+        
+	},
+        
+	"Experience": {
+        
+	    "min": 3,
+          
+	    "max": 8
+  
+	}
+
     },
 
 Da collection Companies:
+    
     {
-        "_id": "COM100004",
-        "Company": "Cairn Energy",
-        "Company Profile": {
-            "Sector": "Energy",
-            "Industry": "Energy - Oil & Gas Exploration & Production",
-            "City": "Edinburgh",
-            "State": "Scotland",
-            "Zip": "EH2 4NH",
-            "Website": "https://www.cairnenergy.com/",
-            "Ticker": "CNE",
-            "CEO": "Simon Thomson"
+    
+	"_id": "COM100004",
+        
+	"Company": "Cairn Energy",
+        
+	"Company Profile": {
+        
+	    "Sector": "Energy",
+            
+	    "Industry": "Energy - Oil & Gas Exploration & Production",
+            
+	    "City": "Edinburgh",
+            
+	    "State": "Scotland",
+            
+	    "Zip": "EH2 4NH",
+            
+	    "Website": "https://www.cairnenergy.com/",
+            
+	    "Ticker": "CNE",
+            
+	    "CEO": "Simon Thomson"
         },
-        "Company Size": 53944
+	
+	"Company Size": 53944
+   
     },
 
 ### 2.3. SIMULAÇÃO DE INJEÇÃO DE DADOS
